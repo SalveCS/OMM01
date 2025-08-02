@@ -48,7 +48,7 @@ const CascudoSection = () => {
         </div>
 
         {/* Main Content Grid */}
-        <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
+        <div className="grid lg:grid-cols-2 gap-8 items-center mb-20">
           {/* Left Content */}
           <div className="space-y-8">
             {/* Imagem CASC acima do conteúdo */}
@@ -90,25 +90,15 @@ const CascudoSection = () => {
             </div>
           </div>
 
-          {/* Right Video - Cascudo em ação */}
+          {/* Right Image - Cascudo na prancha */}
           <div className="relative">
-            <video 
-              autoPlay
-              loop
-              muted
-              playsInline
+            <img 
+              src={cascudoProduct} 
+              alt="Cascudo na prancha" 
               className="rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300 w-full h-auto"
-            >
-              <source src="/src/assets/video-placeholder.mp4" type="video/mp4" />
-              {/* Fallback para quando o vídeo não carregar */}
-              <img 
-                src={cascudoProduct} 
-                alt="Cascudo na prancha" 
-                className="rounded-2xl shadow-2xl w-full h-auto"
-                loading="eager"
-              />
-            </video>
-            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl pointer-events-none"></div>
+              loading="eager"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl"></div>
           </div>
         </div>
 
