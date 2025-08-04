@@ -131,16 +131,16 @@ const EnergiaSalgadaSection = () => {
               <div className="relative h-96 w-full">
                 {energyElements.map((element, index) => {
                   const positions = [
-                    'top-6 left-6',
-                    'top-6 right-6', 
-                    'bottom-6 left-6',
-                    'bottom-6 right-6'
+                    'top-0 left-0',
+                    'top-0 right-0', 
+                    'bottom-0 left-0',
+                    'bottom-0 right-0'
                   ];
                   
                   return (
                     <div 
                       key={index}
-                      className={`absolute ${positions[index]} glass-effect rounded-xl p-4 w-40 h-32 hover-scale transition-all duration-300 hover:border-cyan-400/50 border border-white/20 flex flex-col justify-start`}
+                      className={`absolute ${positions[index]} glass-effect rounded-xl p-6 w-48 h-40 hover-scale transition-all duration-300 hover:border-cyan-400/50 border border-white/20 flex flex-col justify-start`}
                       style={{
                         animation: `float ${3 + index * 0.5}s ease-in-out infinite`,
                         animationDelay: `${index * 0.5}s`
@@ -149,10 +149,10 @@ const EnergiaSalgadaSection = () => {
                       <div className="text-cyan-400 mb-2 text-xl">
                         {element.icon}
                       </div>
-                      <h4 className="text-white font-semibold text-sm mb-1 leading-tight">
+                      <h4 className="text-white font-semibold text-base mb-2 leading-tight">
                         {element.title}
                       </h4>
-                      <p className="text-gray-300 text-xs leading-tight">
+                      <p className="text-gray-300 text-sm leading-tight overflow-hidden">
                         {element.description}
                       </p>
                     </div>
