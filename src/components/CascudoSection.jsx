@@ -1,7 +1,7 @@
 import { Waves, Shield, Heart, Recycle } from 'lucide-react';
 import cascudoLogo from '../assets/Cascudo_LogoMarca_Branco.png';
-import cascudoImage from '../assets/CASC.png';
-import foto1 from '../assets/foto1.png';
+import foto1 from '../assets/foto1.jpg';
+import cascudoProduct from '../assets/Cascudo_Prancha_Final_web.png';
 
 const CascudoSection = () => {
   const features = [
@@ -54,7 +54,7 @@ const CascudoSection = () => {
             {/* Imagem CASC acima do conteúdo */}
             <div className="relative mb-8">
               <img 
-                src={cascudoImage} 
+                src={foto1} 
                 alt="Cascudo produto" 
                 className="rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300 w-full"
                 loading="eager"
@@ -93,9 +93,9 @@ const CascudoSection = () => {
           {/* Right Image - Cascudo na prancha */}
           <div className="relative">
             <img 
-              src={foto1} 
+              src={cascudoProduct} 
               alt="Cascudo na prancha" 
-              className="rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300 w-full h-auto"
+              className="rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300 w-full h-auto object-cover"
               loading="eager"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl"></div>
@@ -153,7 +153,7 @@ const CascudoSection = () => {
             </div>
             <div className="relative">
               <img 
-                src={foto1} 
+                src={cascudoProduct} 
                 alt="Produto Cascudo" 
                 className="rounded-2xl shadow-2xl hover-scale transition-transform duration-500"
               />
