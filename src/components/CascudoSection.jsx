@@ -74,7 +74,7 @@ const CascudoSection = () => {
                   href="https://ondamaremato.weebly.com/passoapasso.html"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 hover-scale"
+                  className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 hover-scale text-center flex items-center justify-center"
                 >
                   Guia de Instalação
                 </a>
@@ -82,7 +82,7 @@ const CascudoSection = () => {
                   href="https://ondamaremato.weebly.com/cascudo.html"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-white px-6 py-3 rounded-full font-semibold transition-all duration-300"
+                  className="border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 text-center flex items-center justify-center"
                 >
                   Saiba Mais
                 </a>
@@ -166,7 +166,7 @@ const CascudoSection = () => {
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
             Junte-se a nós na promoção da sustentabilidade
           </h3>
-          <p className="text-gray-300 text-lg mb-8">
+          <p className="text-gray-300 text-lg">
             E na luta contra a poluição marinha
           </p>
         </div>
