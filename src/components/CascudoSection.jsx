@@ -48,18 +48,9 @@ const CascudoSection = () => {
         </div>
 
         {/* Main Content Grid */}
-        <div className="grid lg:grid-cols-2 gap-8 items-center mb-20">
+        <div className="grid lg:grid-cols-2 gap-8 items-start mb-20">
           {/* Left Content */}
           <div className="space-y-8">
-            {/* Imagem CASC acima do conteúdo */}
-            <div className="relative mb-8">
-              <img 
-                src={foto1} 
-                alt="Cascudo produto" 
-                className="rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300 w-full"
-                loading="eager"
-              />
-            </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
               <h3 className="text-2xl font-bold text-white mb-4">
                 Pequeno no Leash, Gigante no Impacto
@@ -95,14 +86,12 @@ const CascudoSection = () => {
             <img 
               src={cascudoProduct} 
               alt="Cascudo na prancha" 
-              className="rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300 w-full h-auto object-cover"
+              className="rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300 w-full h-auto"
               loading="eager"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl"></div>
           </div>
-        </div>
-
-        {/* Features Grid */}
+        </div>      {/* Features Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {features.map((feature, index) => (
             <div 

@@ -140,19 +140,19 @@ const EnergiaSalgadaSection = () => {
                   return (
                     <div 
                       key={index}
-                      className={`absolute ${positions[index]} glass-effect rounded-xl p-3 w-44 h-36 hover-scale transition-all duration-300 hover:border-cyan-400/50 border border-white/20 flex flex-col justify-start`}
+                      className={`absolute ${positions[index]} glass-effect rounded-xl p-4 w-48 h-40 hover-scale transition-all duration-300 hover:border-cyan-400/50 border border-white/20 flex flex-col justify-start overflow-hidden`}
                       style={{
                         animation: `float ${3 + index * 0.5}s ease-in-out infinite`,
                         animationDelay: `${index * 0.5}s`
                       }}
                     >
-                      <div className="text-cyan-400 mb-2 text-xl">
+                      <div className="text-cyan-400 mb-3 text-2xl flex-shrink-0">
                         {element.icon}
                       </div>
-                      <h4 className="text-white font-semibold text-sm mb-2 leading-tight">
+                      <h4 className="text-white font-semibold text-sm mb-2 leading-tight flex-shrink-0">
                         {element.title}
                       </h4>
-                      <p className="text-gray-300 text-xs leading-relaxed">
+                      <p className="text-gray-300 text-xs leading-relaxed flex-1 overflow-hidden">
                         {element.description}
                       </p>
                     </div>
