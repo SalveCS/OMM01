@@ -1,6 +1,6 @@
 import { Waves, Shield, Heart, Recycle } from 'lucide-react';
 import cascudoLogo from '../assets/Cascudo_LogoMarca_Branco.png';
-import foto1 from '../assets/foto1.jpg';
+import foto1 from '../assets/Foto1.png';
 import cascudoProduct from '../assets/Cascudo_Prancha_Final_web.png';
 
 const CascudoSection = () => {
@@ -84,7 +84,7 @@ const CascudoSection = () => {
           {/* Right Image - Cascudo na prancha */}
           <div className="relative">
             <img 
-              src={cascudoProduct} 
+              src={foto1} 
               alt="Cascudo na prancha" 
               className="rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300 w-full h-auto"
               loading="eager"
@@ -111,44 +111,7 @@ const CascudoSection = () => {
           ))}
         </div>
 
-        {/* Product Showcase */}
-        <div className="bg-gradient-to-r from-cyan-900/30 to-blue-900/30 rounded-3xl p-8 md:p-12 border border-cyan-400/20">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                Design Elegante,
-                <br />
-                <span className="text-cyan-300">Impacto Gigante</span>
-              </h3>
-              <p className="text-gray-300 text-lg leading-relaxed mb-8">
-                Com uma aparência moderna e atual, ele não só ajuda a proteger o ambiente, 
-                mas também é uma adição estética para a prancha de surf e o leash. 
-                Por fim, o cascudo tem um propósito importante e significativo.
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                  <span className="text-white">Oferecemos uma abordagem única para a limpeza de praias</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                  <span className="text-white">Oportunidades para se envolver na proteção dos oceanos</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                  <span className="text-white">Uma comunidade unida de pessoas comprometidas</span>
-                </div>
-              </div>
-            </div>
-            <div className="relative">
-              <img 
-                src={cascudoProduct} 
-                alt="Produto Cascudo" 
-                className="rounded-2xl shadow-2xl hover-scale transition-transform duration-500"
-              />
-            </div>
-          </div>
-        </div>
+
 
         {/* Call to Action */}
         <div className="text-center mt-16">
