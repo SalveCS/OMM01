@@ -2,6 +2,7 @@ import { Waves, Shield, Heart, Recycle } from 'lucide-react';
 import cascudoLogo from '../assets/Cascudo_LogoMarca_Branco.png';
 import foto1 from '../assets/Foto1.png';
 import cascudoProduct from '../assets/Cascudo_Prancha_Final_web.png';
+import foto66 from '../assets/Foto66.png';
 
 const CascudoSection = () => {
   const features = [
@@ -79,6 +80,17 @@ const CascudoSection = () => {
                 </a>
               </div>
             </div>
+            
+            {/* Foto66 embaixo do texto */}
+            <div className="relative">
+              <img 
+                src={foto66} 
+                alt="Equipamento Cascudo - Detalhe do produto" 
+                className="rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300 w-full h-auto"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
+            </div>
           </div>
 
           {/* Right Image - Cascudo na prancha */}
@@ -110,8 +122,6 @@ const CascudoSection = () => {
             </div>
           ))}
         </div>
-
-
 
         {/* Call to Action */}
         <div className="text-center mt-16">
