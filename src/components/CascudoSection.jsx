@@ -1,6 +1,6 @@
 import { Waves, Shield, Heart, Recycle } from 'lucide-react';
 import cascudoLogo from '../assets/Cascudo_LogoMarca_Branco.png';
-import foto1 from '../assets/Foto1.png';
+import foto1 from '../assets/foto1.png';
 import cascudoProduct from '../assets/Cascudo_Prancha_Final_web.png';
 import foto66 from '../assets/Foto66.png';
 
