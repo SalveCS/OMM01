@@ -157,7 +157,7 @@ const EnergiaSalgadaSection = () => {
         </div>
 
         {/* Philosophy Section */}
-        <div className={`text-center transition-all duration-1000 delay-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <div className={`text-center transition-all duration-1000 delay-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'} pt-20`}>
           <div className="max-w-4xl mx-auto">
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-8">
               Sinta a energia, deslize com propósito
