@@ -39,7 +39,7 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a 
-                href="mailto:contato@ondamaremato.com" 
+                href="mailto:ondamaremato@gmail.com" 
                 className="bg-white/10 hover:bg-cyan-500 text-white p-3 rounded-full transition-all duration-300 hover-scale"
               >
                 <Mail size={20} />
@@ -53,8 +53,8 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <button 
-                  onClick={() => scrollToSection('home')}
-                  className="text-gray-300 hover:text-cyan-300 transition-colors"
+                  onClick={() => scrollToSection('inicio')}
+                  className="text-gray-300 hover:text-cyan-300 transition-colors cursor-pointer"
                 >
                   Início
                 </button>
@@ -62,7 +62,7 @@ const Footer = () => {
               <li>
                 <button 
                   onClick={() => scrollToSection('cascudo')}
-                  className="text-gray-300 hover:text-cyan-300 transition-colors"
+                  className="text-gray-300 hover:text-cyan-300 transition-colors cursor-pointer"
                 >
                   Cascudo
                 </button>
@@ -70,7 +70,7 @@ const Footer = () => {
               <li>
                 <button 
                   onClick={() => scrollToSection('energia-salgada')}
-                  className="text-gray-300 hover:text-cyan-300 transition-colors"
+                  className="text-gray-300 hover:text-cyan-300 transition-colors cursor-pointer"
                 >
                   Energia Salgada
                 </button>
@@ -78,7 +78,7 @@ const Footer = () => {
               <li>
                 <button 
                   onClick={() => scrollToSection('sobre')}
-                  className="text-gray-300 hover:text-cyan-300 transition-colors"
+                  className="text-gray-300 hover:text-cyan-300 transition-colors cursor-pointer"
                 >
                   Sobre
                 </button>
